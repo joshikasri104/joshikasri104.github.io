@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Joshika Sri SP — Computer Science and Data Analytics student.">
+<title>Joshika Sri SP | Portfolio</title>
+<style>
+:root{--navy:#101d3a;--blue:#3156a5;--ink:#18233b;--muted:#64708a;--paper:#f6f8fc;--white:#fff;--line:#e4e9f2}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}
+a{color:inherit;text-decoration:none}
+header{position:sticky;top:0;z-index:10;background:#ffffffed;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{max-width:1100px;margin:auto;padding:14px 22px;display:flex;justify-content:space-between;align-items:center;gap:18px}
+.brand{font-weight:800;color:var(--navy);letter-spacing:.3px}
+nav{display:flex;gap:19px;flex-wrap:wrap;font-size:.9rem;color:#485571}
+nav a:hover,.link:hover{color:var(--blue)}
+section{max-width:1100px;margin:auto;padding:76px 22px}
+.hero{min-height:78vh;display:grid;grid-template-columns:1.35fr .65fr;align-items:center;gap:45px}
+.eyebrow{color:var(--blue);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.78rem}
+h1{font-size:clamp(2.6rem,6vw,4.7rem);line-height:1.08;margin:12px 0;color:var(--navy)}
+h2{font-size:2rem;color:var(--navy);margin:0 0 22px}
+h3{margin:0 0 8px;color:var(--navy)}
+.lead{font-size:1.15rem;color:var(--muted);max-width:650px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-block;padding:12px 19px;border-radius:10px;background:var(--blue);color:white;font-weight:700;border:1px solid var(--blue)}
+.btn.secondary{background:white;color:var(--navy);border-color:var(--line)}
+.profile-card{background:linear-gradient(145deg,var(--navy),#263f76);color:white;padding:34px;border-radius:24px;box-shadow:0 18px 45px #15264a25}
+.profile-card .initials{width:94px;height:94px;border-radius:50%;display:grid;place-items:center;background:#ffffff20;border:1px solid #ffffff55;font-size:2rem;font-weight:800;margin-bottom:20px}
+.profile-card p{color:#dce5ff}
+.pills{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+.pill{padding:7px 12px;background:#eaf0ff;color:#29488d;border-radius:999px;font-size:.88rem;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.card{background:white;border:1px solid var(--line);border-radius:16px;padding:23px;box-shadow:0 7px 24px #17284b08}
+.card p{color:var(--muted);margin-bottom:0}
+.meta{font-size:.9rem;color:var(--blue);font-weight:700}
+.project{display:flex;flex-direction:column;gap:8px}
+.project .pills{margin-top:auto;padding-top:10px}
+.timeline{border-left:2px solid #dce4f4;padding-left:22px}
+.timeline .card{margin-bottom:15px}
+.contact{background:var(--navy);color:white;border-radius:22px;padding:34px}
+.contact h2,.contact h3{color:white}
+.contact p{color:#dce5ff}
+.contact a{color:#fff;text-decoration:underline;text-underline-offset:4px}
+footer{text-align:center;padding:25px;color:var(--muted);font-size:.9rem}
+.small{font-size:.9rem;color:var(--muted)}
+@media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}nav{gap:12px}.hero{grid-template-columns:1fr;padding-top:55px;min-height:auto}.grid{grid-template-columns:1fr}section{padding:58px 20px}.profile-card{max-width:450px}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<a class="brand" href="#home">JOSHIKA SRI SP</a>
+<nav aria-label="Main navigation">
+<a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+</nav></div></header>
+
+<main>
+<section class="hero" id="home">
+<div>
+<div class="eyebrow">Computer Science · Data Analytics</div>
+<h1>Hello, I'm<br>Joshika Sri SP.</h1>
+<p class="lead">A Computer Science and Data Analytics student who enjoys learning new technologies, exploring data, and building useful digital solutions.</p>
+<div class="actions">
+<a class="btn" href="#projects">Explore My Work</a>
+<a class="btn secondary" href="#contact">Get In Touch</a>
+<a class="btn secondary" href="resume.pdf" download>Download Resume</a>
+</div>
+</div>
+<aside class="profile-card">
+<div class="initials">JS</div>
+<h2 style="color:white;margin-bottom:5px">Aspiring Data Analyst</h2>
+<p>Curious learner • Creative thinker • Problem solver</p>
+<div class="pills"><span class="pill">Python</span><span class="pill">C / C++</span><span class="pill">Data Analytics</span></div>
+</aside>
+</section>
+
+<section id="about">
+<div class="eyebrow">Get to know me</div><h2>About Me</h2>
+<div class="card"><p>I am pursuing a B.Sc. in Computer Science with Data Analytics at KPR College of Arts Science and Research. I am interested in technology, data, and creative problem-solving. I enjoy learning new skills, working on projects, and improving through practical experience. I bring a positive attitude and a willingness to learn to every opportunity.</p></div>
+</section>
+
+<section id="education">
+<div class="eyebrow">My background</div><h2>Education</h2>
+<div class="timeline">
+<div class="card"><div class="meta">2025 – 2028 · Expected</div><h3>B.Sc. Computer Science with Data Analytics</h3><p>KPR College of Arts Science and Research</p><p><strong>Current CGPA:</strong> 7.79</p></div>
+<div class="card"><div class="meta">Higher Secondary</div><h3>Class XII</h3><p>Vivekananda Vidyalaya Matriculation Higher Secondary School · 88.5%</p></div>
+<div class="card"><div class="meta">Secondary</div><h3>Class X</h3><p>Vivekananda Vidyalaya Matriculation Higher Secondary School · 67.4%</p></div>
+</div>
+</section>
+
+<section id="skills">
+<div class="eyebrow">What I work with</div><h2>Skills</h2>
+<div class="grid">
+<div class="card"><h3>Programming</h3><div class="pills"><span class="pill">C</span><span class="pill">C++</span><span class="pill">Python (Basics)</span></div></div>
+<div class="card"><h3>Areas of Interest</h3><div class="pills"><span class="pill">Data Analytics</span><span class="pill">Data Visualization</span><span class="pill">Artificial Intelligence</span></div></div>
+<div class="card"><h3>Tools & Technologies</h3><div class="pills"><span class="pill">Google Colab</span><span class="pill">GitHub</span><span class="pill">Matplotlib</span><span class="pill">Gradio</span></div></div>
+<div class="card"><h3>Strengths</h3><div class="pills"><span class="pill">Quick Learning</span><span class="pill">Positive Attitude</span><span class="pill">Creative Thinking</span></div></div>
+</div>
+</section>
+
+<section id="projects">
+<div class="eyebrow">Selected work</div><h2>Projects</h2>
+<div class="grid">
+<article class="card project"><h3>EduDoubt AI</h3><p>An AI-powered student doubt support dashboard designed to explain topics simply, help with maths and programming questions, and provide quizzes and mock tests.</p><div class="pills"><span class="pill">Python</span><span class="pill">Gradio</span><span class="pill">Groq API</span></div></article>
+<article class="card project"><h3>SmartA – Pocket Smart A</h3><p>A smart planning assistant concept with modules for home interior planning, jewellery planning, and party and event planning, with AI-powered recommendations.</p><div class="pills"><span class="pill">Python</span><span class="pill">FastAPI</span><span class="pill">HTML / CSS / JS</span><span class="pill">AI</span></div></article>
+<article class="card project"><h3>Amazon Reviews Data Analysis</h3><p>A learning project focused on collecting and exploring Amazon review data as part of a data analytics internship task.</p><div class="pills"><span class="pill">Python</span><span class="pill">Data Analysis</span></div></article>
+<article class="card project"><h3>Data Visualization Mini Project</h3><p>A practice project exploring data visualization and presenting insights using Python visualization tools.</p><div class="pills"><span class="pill">Python</span><span class="pill">Matplotlib</span></div></article>
+</div>
+</section>
+
+<section id="experience">
+<div class="eyebrow">Learning through practice</div><h2>Internship & Certifications</h2>
+<div class="card"><div class="meta">Internship</div><h3>CodeAlpha – Data Analytics</h3><p>Worked on beginner-friendly data analytics tasks, including review data exploration and analysis using Python.</p><p><a class="link" href="https://github.com/joshikasri104/CodeAlpha_DataAnalytics" target="_blank" rel="noopener">View Data Analytics GitHub Repository ↗</a></p><p><a class="link" href="https://github.com/joshikasri104/CodeAlpha_WebScraping" target="_blank" rel="noopener">View Web Scraping Repository ↗</a></p><p><a class="link" href="CodeAlpha_Internship_Letter.pdf" target="_blank" rel="noopener">View / Download CodeAlpha Internship Letter (PDF) ↗</a></p></div>
+<p class="small">Add your verified certificates here as you receive them.</p>
+</section>
+
+<section id="contact">
+<div class="contact"><div class="eyebrow" style="color:#b9ccff">Let's connect</div><h2>Contact Me</h2>
+<p>I'm open to learning opportunities, collaborations, and connecting with people in technology and data.</p>
+<p><strong>GitHub:</strong> <a href="https://github.com/joshikasri104" target="_blank" rel="noopener">github.com/joshikasri104</a></p>
+<p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/joshika-sri-sabareesh-931406380/" target="_blank" rel="noopener">View LinkedIn Profile</a></p>
+<p><strong>Email:</strong> <a href="mailto:joshikasri104@gmail.com">joshikasri104@gmail.com</a></p>
+</div>
+</section>
+</main>
+<footer>© <span id="year"></span> Joshika Sri SP · Built with HTML & CSS</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
